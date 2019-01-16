@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="grey darken-2">
+    <header>
+        <!-- Banner -->
+        <div style="padding: 16px" class="black center-align">
+            <div class="container">
+                <a href="index.html"><img class="banner" src="img/banner.png" alt="Imagen Grafica"></a>
+            </div>
+        </div>
+        <!-- Navigation -->
+        <nav class="z-depth-2 black nav-center" role="navigation">
+            <div class="nav-wrapper container">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="hide-on-small-only">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#productos">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#productos">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="row white black-text z-depth-1">
+            <h4 class="center-align" style="padding-top: 16px">Contacto</h4>
+            <!-- Forma de contacto-->
+            <div class="col l7 offset-l1 s12" style="padding:16px">
+                <p>Pide tu cotizacion y aclara tus dudas enviandonos un mensaje o contactanos por nuestras redes
+                    sociales</p>
+
+                <form class="col s12 black-text">
+                    <div class="row">
+                        <div class="input-field col l6 s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input placeholder="" id="first_name" type="text" class="validate" required>
+                            <label for="first_name">Nombre</label>
+                        </div>
+                        <div class="input-field col l6 s12">
+                            <input placeholder="" id="last_name" type="text" class="validate" required>
+                            <label for="last_name">Apellidos</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l12 s12 input-field">
+                            <i class="material-icons prefix">email</i>
+                            <input placeholder="" id="email" type="text" class="validate" required>
+                            <label for="email">E-Mail</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">message</i>
+                            <textarea placeholder="" type="text" id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Mensaje</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l6 s12 input-field">
+                            <i class="material-icons prefix">phone</i>
+                            <input placeholder="" id="phone" type="text" class="validate">
+                            <label for="phone">Telefono</label>
+                        </div>
+                        <div class="col l3 offset-l2 s6 offset-s3">
+                            <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Enviar
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!--contact-->
+            <div class="col l3 s12">
+                <div class="row valign-wrapper">
+                    <div class="col s2">
+                        <a href="#"><img src="img/face.png" alt="" class="circle responsive-img"></a>
+                    </div>
+                    <div class="col s10">
+                        <a href="#"><span class="black-text">
+                                Imagen Grafica del Pacifico
+                            </span></a>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="row valign-wrapper" style="padding-top:16px">
+                    <div class="col s2">
+                        <a href="#"><img src="img/whats.png" alt="" class="responsive-img"></a>
+                    </div>
+                    <div class="col s10">
+                        <span class="black-text">
+                            314 352 4772
+                        </span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="row valign-wrapper" style="padding-top:16px">
+                    <div class="col s2">
+                        <a href="#"><img src="img/phone.png" alt="" class="circle responsive-img"></a>
+                    </div>
+                    <div class="col s10">
+                        <span class="black-text">
+                            333 1977
+                        </span>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="black page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Imagen Grafica</h5>
+                    <p class="grey-text text-lighten-4">Impresion en grande.. Verdaderamente grande.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Contacto</h5>
+                    <ul>
+                        <li><i class="small material-icons">phone</i><a class="grey-text text-lighten-3" href="#!">
+                                333-1977</a></li>
+                        <li><i class="small material-icons">phone</i><a class="grey-text text-lighten-3" href="#!">
+                                Imagen Grafica del Pacifico</a></li>
+                        <li><i class="small material-icons">email</i><a class="grey-text text-lighten-3" href="#!">
+                                direccion@imagengrafica.com.mx</a></li>
+                        <li><i class="small material-icons">phone</i><a class="grey-text text-lighten-3" href="#!">
+                                Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                2019 Imagen Grafica del Pacifico S. de R.L. de C.V.
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
