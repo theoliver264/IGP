@@ -9,6 +9,10 @@ nav.nav-center ul li a {
     display: inline-block;
 }
 
+.mySlides { 
+    display:none;
+}
+
 img.banner{
     max-width: 50%;
     height:auto;

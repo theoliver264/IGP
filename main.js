@@ -13,7 +13,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function() {
     let elems = document.querySelectorAll('.parallax');
-    let instances = M.Parallax.init(elems);
-
-    
+    let instances = M.Parallax.init(elems);  
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems, {
+        indicators: true
+    });
+});
+
